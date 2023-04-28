@@ -1,15 +1,9 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
+import Home from '@/components/screens/home/Home'
 
-export default function Home() {
+export default function HomePage() {
     return (
         <>
-            <Head>
-                <title>HomePage</title>
-            </Head>
-            <div>
-                <h1 className={styles.h1__color}>Welcome HomePage</h1>
-            </div>
+            <Home />
         </>
     )
 }
